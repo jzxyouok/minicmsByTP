@@ -1,0 +1,18 @@
+[ 2015-04-10T21:33:52+08:00 ] ::1 /tutor/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.045454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067340s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011240s ]
+

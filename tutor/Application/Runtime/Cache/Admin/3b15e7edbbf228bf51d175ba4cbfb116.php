@@ -1,0 +1,3 @@
+<?php if (!defined('THINK_PATH')) exit();?><ul class="nav nav-pills nav-stacked">
+	<?php if(is_array($leftMenus)): $i = 0; $__LIST__ = $leftMenus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a class="navbar-brand" href="<?php echo U($vo['url']);?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+</ul>

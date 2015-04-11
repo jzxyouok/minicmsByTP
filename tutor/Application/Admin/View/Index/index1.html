@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<script data-main="__PUBLIC__/js/main.js" src="__PUBLIC__/js/requirejs.js"></script>
+<script>
+	
+</script>
+</head>
+<body style="background-color: #fff;">
+	<div class="container-fluid">
+		<!-- 头部导航 -->
+		<div class="row" id="header">
+			<nav class="navbar nav-pills nav-stacked">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<ul class="nav nav-tabs">
+					<volist name="topMenus" id="vo">
+					<li><a class="navbar-brand" href="{:U($vo['url'], array('id'=>$vo['id']))}">{$vo.name}</a></li>
+					</volist>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="row">
+			<div class="container-fluid" id="page-main">
+				<!-- 左侧导航 -->
+				<div class="col-md-2" id="sidebar">
+					<nav>
+						<ul class="nav nav-pills nav-stacked">
+							<volist name="leftMenus" id="vo">
+							<li><a class="navbar-brand" href="{:U($vo['url'])}">{$vo.name}</a></li>
+							</volist>
+						</ul>
+					</nav>
+				</div>
+				<!-- 右侧内容 -->
+				<div class="col-md-10" style="background: #eee;" id="page-content">fasd</div>
+			</div>
+		</div>
+	</div>
+</body>
+<div id="test2">sfsd</div>
+<script>
+	/* 点击头部列表异步刷新内容 */
+	require( ["jquery2"], function(util){
+		require(["jquery.myLayout"], function(util) {
+			$.myLayout();
+			/* layer.msg('Hello layer', 2, -1); //2秒后自动关闭，-1代表不显示图标 */
+			$('#test2').on('click', function(){
+			    $.layer({
+			        type: 1,
+			        title: false, //不显示默认标题栏
+			        shade: [0], //不显示遮罩
+			        area: ['600px', '360px'],
+			        page: {html: '<img src="http://static.oschina.net/uploads/space/2014/0516/012728_nAh8_1168184.jpg" alt="layer">'}
+			    });
+			});
+		})
+	} );
+
+</script>
+</html>

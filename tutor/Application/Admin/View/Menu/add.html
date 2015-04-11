@@ -1,0 +1,35 @@
+<div>
+	<form action="{:U('Menu/add')}" method="POST">
+
+		<div class="form-group">
+			<label for="name">{$Think.Lang.menuName}</label> 
+			<input type="text" name="name" class="form-control" placeholder="{$Think.Lang.menuName}">
+		</div>
+		<div class="form-group">
+			<label for="action">{$Think.Lang.controller}</label>
+			<select	name="action" class="form-control">
+				<volist name="controllers" id="vo">
+					<option value="{$vo.see}">{$vo.name}</option>
+				</volist>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="method">{$Think.Lang.option}</label> 
+			<input type="text" name="method" class="form-control" placeholder="{$Think.Lang.option}">
+		</div>
+		<div class="form-group">
+			<label for="parentId">{$Think.Lang.parentMenu}</label> 
+			<select name="parentId" class="form-control">
+				<option value="0">无上级菜单</option>
+				<volist name="menus" id="vo">
+				<option value="{$vo.id}">{$vo.name}</option>
+				</volist>
+			</select>
+		</div>
+		<div class="text-center">
+			<input type="submit" value="提交" class="btn btn-success">
+		</div>
+	</form>
+</div>
+<script>
+</script>

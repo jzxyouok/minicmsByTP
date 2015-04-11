@@ -1,0 +1,90 @@
+[ 2015-04-04T13:25:00+08:00 ] 127.0.0.1 /tutor/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013513s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004165s ]
+
+[ 2015-04-04T16:34:58+08:00 ] ::1 /tutor/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-04-04T16:35:23+08:00 ] ::1 /tutor/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-04-04T21:22:28+08:00 ] ::1 /tutor/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14281537479411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-04-04T21:22:36+08:00 ] ::1 /tutor/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14281537479411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+

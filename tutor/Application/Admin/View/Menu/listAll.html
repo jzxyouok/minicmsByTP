@@ -1,0 +1,42 @@
+
+<div class="text-right">
+	<a href="{:U('Menu/toAdd')}" class="layer btn btn-primary btn-lg active">添加</a>
+	<a href="{:U('Menu/toAdd')}" class="layer btn btn-primary btn-lg active">添加</a>
+</div>
+<table class="table table-hover table-striped">
+	<thead>
+		<tr>
+			<td>id</td>
+			<td>名字</td>
+			<td>控制器</td>
+			<td>操作</td>
+			<td>父Id</td>
+			<td>创建时间</td>
+			<td>最后一次更新时间</td>
+			<td>url</td>
+			<td>操作</td>
+		</tr>
+	</thead>
+	<tbody>
+		<volist name="menus" id="vo">
+		<tr>
+			<td>{$vo.id}</td>
+			<td>{$vo.name}</td>
+			<td>{$vo.action}</td>
+			<td>{$vo.method}</td>
+			<td>{$vo.parentId}</td>
+			<td>{$vo.create_time}</td>
+			<td>{$vo.last_update_time}</td>
+			<td>{$vo.url}</td>
+			<td><a href="{:U('Menu/toUpdate', array('id' => $vo['id']) )}" class="layer">编辑</a>
+				<a href="{:U('Menu/delete', array('id' => $vo['id']) )}" class="ajaxDelete">删除</a></td>
+		</tr>
+		</volist>
+	</tbody>
+</table>
+<script>
+$(".ajaxDelete").click(function() {
+	alert(5);
+	return false;
+});
+</script>

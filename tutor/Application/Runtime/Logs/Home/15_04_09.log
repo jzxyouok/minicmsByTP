@@ -1,0 +1,36 @@
+[ 2015-04-09T20:53:44+08:00 ] ::1 /tutor/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14285840232411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-04-09T20:53:48+08:00 ] ::1 /tutor/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14285840232411
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
